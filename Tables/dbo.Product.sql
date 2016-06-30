@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Product]
+(
+[ProductID] [int] NOT NULL IDENTITY(1, 1),
+[Descr] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Product] ADD CONSTRAINT [PK__Product__B40CC6ED3E17C151] PRIMARY KEY CLUSTERED  ([ProductID]) ON [PRIMARY]
+GO
